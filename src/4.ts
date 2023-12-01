@@ -15,7 +15,6 @@ abstract class House {
   public door: boolean=false;
   public tenants:Person[]=[];
   constructor( public keyHouse: Key) {
-  
   }
   // constructor( keyHouse: Key) {}
   comeIn(person:Person):void{
